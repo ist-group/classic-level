@@ -5,7 +5,7 @@
   "targets": [{
     "target_name": "leveldb",
     "variables": {
-      "ldbversion": "1.22"
+      "ldbversion": "1.23"
     },
     "type": "static_library",
     "standalone_static_library": 1,
@@ -261,7 +261,7 @@
     "leveldb-<(ldbversion)/util/no_destructor.h",
     "leveldb-<(ldbversion)/util/options.cc",
     "leveldb-<(ldbversion)/util/random.h",
-    "leveldb-<(ldbversion)/util/status.cc",   
+    "leveldb-<(ldbversion)/util/status.cc",
     "leveldb-<(ldbversion)/include/leveldb/c.h",
     "leveldb-<(ldbversion)/include/leveldb/cache.h",
     "leveldb-<(ldbversion)/include/leveldb/comparator.h",
